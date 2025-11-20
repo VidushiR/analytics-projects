@@ -1,0 +1,12 @@
+# Ignore large raw data
+data/raw/*.csv
+data/raw/*.db
+
+# Ignore processed data
+data/processed/*.csv
+data/processed/*.db
+data/processed/*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
